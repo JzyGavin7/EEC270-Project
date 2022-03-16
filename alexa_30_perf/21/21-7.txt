@@ -1,0 +1,83 @@
+# started on Sat Mar 12 02:28:20 2022
+
+#           time             counts unit events
+     1.001109501          6,707,911      cache-misses                                                  (42.19%)
+     1.001109501            486,949      node-loads                                                    (41.77%)
+     1.001109501          6,055,469      branch-misses             #    1.96% of all branches          (40.19%)
+     1.001109501          5,717,176      branch-load-misses                                            (43.86%)
+     1.001109501          1,396,937      LLC-store-misses                                              (40.94%)
+     1.001109501        323,166,480      branch-loads                                                  (48.50%)
+     1.001109501        217,340,157      L1-dcache-stores                                              (55.94%)
+     1.001109501         11,210,879      L1-icache-load-misses                                         (58.76%)
+     1.001109501        309,006,732      branch-instructions                                           (58.58%)
+     1.001109501            236,505      iTLB-loads                                                    (58.96%)
+     1.001109501            200,925      iTLB-load-misses          #   84.96% of all iTLB cache accesses  (60.49%)
+     1.001109501            182,627      dTLB-store-misses                                             (56.77%)
+     1.001109501            250,711      dTLB-load-misses                                              (51.49%)
+     1.001109501        217,440,962      dTLB-stores                                                   (48.27%)
+     1.001109501          1,652,646      node-stores                                                   (44.85%)
+     1.001109501         37,146,634      L1-dcache-load-misses                                         (41.97%)
+     2.002540090             25,023      cache-misses                                                  (67.31%)
+     2.002540090              2,130      node-loads                                                    (60.09%)
+     2.002540090              8,391      branch-misses             #    9.46% of all branches          (21.68%)
+     2.002540090              6,976      branch-load-misses                                            (7.40%)
+     2.002540090                180      LLC-store-misses                                              (5.56%)
+     2.002540090            123,971      branch-loads                                                  (5.56%)
+     2.002540090             80,533      L1-dcache-stores                                              (11.70%)
+     2.002540090             48,119      L1-icache-load-misses                                         (11.70%)
+     2.002540090             88,696      branch-instructions                                           (32.69%)
+     2.002540090                418      iTLB-loads                                                    (39.91%)
+     2.002540090              1,150      iTLB-load-misses          #  275.12% of all iTLB cache accesses  (78.32%)
+     2.002540090                321      dTLB-store-misses                                             (92.60%)
+     2.002540090              2,049      dTLB-load-misses                                              (94.44%)
+     2.002540090             81,866      dTLB-stores                                                   (94.44%)
+     2.002540090                756      node-stores                                                   (88.30%)
+     2.002540090             17,556      L1-dcache-load-misses                                         (88.30%)
+     3.004216076              6,799      cache-misses                                                  (29.67%)
+     3.004216076                670      node-loads                                                    (29.67%)
+     3.004216076                906      branch-misses             #    4.61% of all branches          (15.45%)
+     3.004216076      <not counted>      branch-load-misses                                            (0.00%)
+     3.004216076                 89      LLC-store-misses                                              (11.15%)
+     3.004216076             18,313      branch-loads                                                  (43.96%)
+     3.004216076             15,925      L1-dcache-stores                                              (43.96%)
+     3.004216076             14,396      L1-icache-load-misses                                         (43.96%)
+     3.004216076             19,653      branch-instructions                                           (70.33%)
+     3.004216076                 85      iTLB-loads                                                    (70.33%)
+     3.004216076                277      iTLB-load-misses          #  325.88% of all iTLB cache accesses  (84.55%)
+     3.004216076                 31      dTLB-store-misses                                           
+     3.004216076                379      dTLB-load-misses                                              (88.85%)
+     3.004216076             15,417      dTLB-stores                                                   (56.04%)
+     3.004216076                158      node-stores                                                   (56.04%)
+     3.004216076              3,388      L1-dcache-load-misses                                         (56.04%)
+     4.005731131      <not counted>      cache-misses                                                
+     4.005731131      <not counted>      node-loads                                                  
+     4.005731131      <not counted>      branch-misses                                               
+     4.005731131      <not counted>      branch-load-misses                                          
+     4.005731131      <not counted>      LLC-store-misses                                            
+     4.005731131      <not counted>      branch-loads                                                
+     4.005731131      <not counted>      L1-dcache-stores                                            
+     4.005731131      <not counted>      L1-icache-load-misses                                       
+     4.005731131      <not counted>      branch-instructions                                         
+     4.005731131      <not counted>      iTLB-loads                                                  
+     4.005731131      <not counted>      iTLB-load-misses                                            
+     4.005731131      <not counted>      dTLB-store-misses                                           
+     4.005731131      <not counted>      dTLB-load-misses                                            
+     4.005731131      <not counted>      dTLB-stores                                                 
+     4.005731131      <not counted>      node-stores                                                 
+     4.005731131      <not counted>      L1-dcache-load-misses                                       
+     5.006482772      <not counted>      cache-misses                                                  (0.00%)
+     5.006482772      <not counted>      node-loads                                                    (0.00%)
+     5.006482772      <not counted>      branch-misses                                                 (0.00%)
+     5.006482772      <not counted>      branch-load-misses                                            (0.00%)
+     5.006482772      <not counted>      LLC-store-misses                                              (0.00%)
+     5.006482772             64,838      branch-loads                                                  (51.63%)
+     5.006482772             34,024      L1-dcache-stores                                              (51.63%)
+     5.006482772             14,277      L1-icache-load-misses                                         (51.63%)
+     5.006482772             62,470      branch-instructions                                         
+     5.006482772                290      iTLB-loads                                                  
+     5.006482772                264      iTLB-load-misses          #   91.03% of all iTLB cache accesses
+     5.006482772                 30      dTLB-store-misses                                           
+     5.006482772                456      dTLB-load-misses                                            
+     5.006482772             33,349      dTLB-stores                                                   (48.37%)
+     5.006482772                260      node-stores                                                   (48.37%)
+     5.006482772              5,330      L1-dcache-load-misses                                         (48.37%)
